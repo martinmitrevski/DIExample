@@ -1,0 +1,6 @@
+framework module GirdersSwift {
+  umbrella header "GirdersSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

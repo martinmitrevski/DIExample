@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GirdersSwift/framework" "${PODS_CONFIGURATION_BUILD_DIR}/GirdersSwift" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GirdersSwift/GirdersSwift.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess/KeychainAccess.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver/SwiftyBeaver.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "GirdersSwift" -framework "KeychainAccess" -framework "PromiseKit" -framework "SwiftyBeaver"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=Debug] = DEBUG
+SWIFT_INCLUDE_PATHS = $(inherited) $(PODS_ROOT)/GirdersSwift

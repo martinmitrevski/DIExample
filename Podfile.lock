@@ -1,0 +1,36 @@
+PODS:
+  - GirdersSwift (0.4.2):
+    - KeychainAccess (= 3.1.1)
+    - PromiseKit (= 6.4.0)
+    - SwiftyBeaver (= 1.5.2)
+  - KeychainAccess (3.1.1)
+  - PromiseKit (6.4.0):
+    - PromiseKit/CorePromise (= 6.4.0)
+    - PromiseKit/Foundation (= 6.4.0)
+    - PromiseKit/UIKit (= 6.4.0)
+  - PromiseKit/CorePromise (6.4.0)
+  - PromiseKit/Foundation (6.4.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.4.0):
+    - PromiseKit/CorePromise
+  - SwiftyBeaver (1.5.2)
+
+DEPENDENCIES:
+  - GirdersSwift (~> 0.4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GirdersSwift
+    - KeychainAccess
+    - PromiseKit
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  GirdersSwift: 18cc7d041ba6a756926bd29eaac49fb2807b4bc7
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  PromiseKit: ae3616f45d7bb9bf4ff1e91abc9b7a8c48a340e0
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+
+PODFILE CHECKSUM: 1c9fec2cab8653b3deed766bb186b2cebc50053d
+
+COCOAPODS: 1.5.3
